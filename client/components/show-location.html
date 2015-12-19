@@ -1,0 +1,23 @@
+<template name="showLocation">
+    <div class="modal fade" tabindex="-1" role="dialog" id="mapModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Location Indicator</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="images/map4A.png">
+                </div>
+                <div class="panel-body">
+                        <p>
+                            {{location.name}}-{{location.floor}}-{{location.tower}}
+                        </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</template>

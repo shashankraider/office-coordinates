@@ -1,0 +1,21 @@
+<template name="findForm">
+    <div class="row">
+        <div class="col-lg-12 text-center v-center">
+            <h1>Office Co-ordinates</h1>
+            <p class="lead">Find the Room Coordinates in you office</p>
+            <br><br><br>
+            <form class="col-lg-12">
+                <div class="input-group" style="width:340px;text-align:center;margin:0 auto;">
+                    <input class="form-control input-lg" title="Please Enter the room name" name="roomname"
+                           placeholder="Enter the room name" type="text">
+            <span class="input-group-btn">
+                <button type="submit" class="btn btn-lg btn-primary">Find</button>
+            </span>
+                </div>
+            </form>
+            <div id="showLocation">
+                {{>showLocation}}
+            </div>
+        </div>
+    </div>
+</template>
